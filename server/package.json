@@ -1,0 +1,50 @@
+{
+  "name": "ld2server",
+  "version": "0.0.1",
+  "description": "Text online game server",
+  "main": "src/app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mag": "^0.9.1",
+    "mongoose": "^5.1.2",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mag-colored-output": "^1.0.1",
+    "mag-format-message": "^0.1.1",
+    "mag-hub": "^0.1.1",
+    "nodemon": "^1.17.5"
+  },
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/babenoff/ld2realtime.git"
+  },
+  "keywords": [
+    "game",
+    "online",
+    "game",
+    "text",
+    "game",
+    "mmo"
+  ],
+  "author": "Maks Babenko <mbabenko21@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/babenoff/ld2realtime/issues"
+  },
+  "homepage": "https://github.com/babenoff/ld2realtime#readme"
+}
