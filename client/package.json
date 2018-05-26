@@ -1,7 +1,7 @@
 {
-  "name": "ld2-client",
+  "name": "ld2client",
   "version": "1.0.0",
-  "description": "Client game",
+  "description": "Online text mmo",
   "author": "Maks Babenko <mbabenko21@gmail.com>",
   "private": true,
   "scripts": {

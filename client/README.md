@@ -1,6 +1,6 @@
-# ld2-client
+# ld2client
 
-> Client game
+> Online text mmo
 
 ## Build Setup
 
