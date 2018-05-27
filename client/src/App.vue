@@ -1,7 +1,12 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <div class="row at-row no-gutter flex-center">
+      <div :class="`col-md-8`">
+        <div class="at-box-row bg-c-brand-dark">
+          <router-view/>
+        </div>
+        </div>
+    </div>
   </div>
 </template>
 

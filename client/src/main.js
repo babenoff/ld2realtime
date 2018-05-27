@@ -3,13 +3,21 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueProgressBar from 'vue-progressbar'
+import AtComponents from 'at-ui'
+import 'at-ui-style'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
+Vue.use(VueProgressBar, {
+  color: 'rgb(143, 255, 199)',
+  failedColor: 'red',
+  height: '2px'
+})
 
+Vue.use(AtComponents)
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
   router,
   components: { App },
   template: '<App/>'
-})
+}).$mount('#app')
